@@ -29,7 +29,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div style={{ height: "100vh" }} className="container text-bg-info">
+    <div style={{ minHeight: "100vh" }} className="container text-bg-info">
       <div className="d-flex justify-content-between align-items-center py-3">
         <h1>Your Book List</h1>
         <Link to="/books/create" style={{ color: '#018932', cursor: 'pointer' }} >
