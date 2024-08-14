@@ -90,7 +90,7 @@ const EditBook = () => {
           />
         </div>
 
-        <button className="btn btn-primary" onClick={handleEditBook}>
+        <button className="btn btn-primary w-100" onClick={handleEditBook}>
           Save
         </button>
       </div>

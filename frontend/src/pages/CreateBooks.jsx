@@ -71,7 +71,7 @@ const CreateBooks = () => {
           />
         </div>
 
-        <button className="btn btn-primary" onClick={handleSaveBook}>
+        <button className="btn btn-primary w-100" onClick={handleSaveBook}>
           Save
         </button>
       </div>
